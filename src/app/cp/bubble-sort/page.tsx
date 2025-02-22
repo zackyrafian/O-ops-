@@ -1,8 +1,8 @@
 "use client";
 import { useState, useRef } from "react"
-import { SortingVisualizer } from "./components/SortingVisualizer"
-import { CodeVisualizer } from "./components/CodeVisualizer"
-import { Explanation } from "./components/Explanation"
+import { SortingVisualizer } from "./_components/SortingVisualizer"
+import { CodeVisualizer } from "./_components/CodeVisualizer"
+import { Explanation } from "./_components/Explanation"
 
 export default function Home() {
   const [array, setArray] = useState<number[]>([4, 3, 5, 6, 1, 2])
